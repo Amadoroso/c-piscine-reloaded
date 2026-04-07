@@ -1,39 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/07 18:08:42 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/07 18:28:49 by apinho-a         ###   ########.fr       */
+/*   Created: 2026/04/07 19:03:32 by apinho-a          #+#    #+#             */
+/*   Updated: 2026/04/07 19:25:22 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
+int	ft_iterative_factorial( int nb)
 {
-	int	holder;
+	int	factorial;
 
-	holder = *a;
-	*a = *b;
-	*b = holder;
+	factorial = 1;
+	if (nb >= 0)
+	{
+		while (nb > 0)
+			factorial = factorial * nb--;
+	}
+	else
+		return (0);
+	return (factorial);
 }
 
-/* #include <unistd.h>
+/* #include <stdio.h>
 int	main()
 {
-	int	c;
-	int d;
-	char	converter;
-
-	c = 2;
-	d = 3;
-	ft_swap(&c, &d);
-
-	converter = c + 48;
-	write(1, &converter, 1);
-	write(1, "\n", 1);
-
-	converter = d + 48;
-	write(1, &converter, 1);
+	printf("%d", ft_iterative_factorial(-3));
+	return (0);
 } */

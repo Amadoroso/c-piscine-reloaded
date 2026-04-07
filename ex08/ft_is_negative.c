@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: apinho-a <apinho-a@.42lisboa.com>          +#+  +:+       +#+        */
+/*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 17:31:59 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/07 17:51:44 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/07 19:23:31 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ void	ft_putchar(char character)
 
 void	ft_is_negative(int n)
 {
-	char negative;
-	char positive;
+	char	negative;
+	char	positive;
 
 	negative = 'N';
 	positive = 'P';
