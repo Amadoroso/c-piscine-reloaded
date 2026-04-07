@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find -type f  -name "*.sh" -print | sed 's/.sh/'
+find -type f  -name "*.sh" -printf "%f\n"  | sed 's/\.sh//'
