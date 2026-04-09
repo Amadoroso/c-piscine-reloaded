@@ -6,7 +6,7 @@
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 17:31:59 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/07 19:23:31 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/09 17:58:05 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_putchar(char character)
 	write(1, &character, 1);
 }
  */
+void	ft_putchar(char letter);
+
 void	ft_is_negative(int n)
 {
 	char	negative;

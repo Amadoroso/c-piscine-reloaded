@@ -6,7 +6,7 @@
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/09 13:07:13 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/09 17:16:00 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/09 17:58:55 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	ft_putchar(char character)
 {
 	write(1, &character, 1);
 } */
+void	ft_putchar(char letter);
 
 int	main(int argc, char **argv)
 {
