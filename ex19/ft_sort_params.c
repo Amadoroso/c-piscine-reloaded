@@ -6,7 +6,7 @@
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/09 13:33:48 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/09 18:26:56 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/09 18:43:32 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,14 +49,14 @@ int	main(int argc, char **argv)
 	char	*holder;
 	int		i;
 
-	if (argc == 0)
+	if (argc == 1)
 		return (0);
 	else
 	{
 		i = 1;
 		while (i < argc - 1)
 		{
-			if (ft_strcmp(argv[i], argv[i + 1]) < 0)
+			if (ft_strcmp(argv[i], argv[i + 1]) > 0)
 			{
 				holder = argv[i];
 				argv[i] = argv[i + 1];
