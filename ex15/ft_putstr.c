@@ -10,13 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+/* #include <unistd.h>
 
 void	ft_putchar(char character)
 {
 	write(1, &character, 1);
 }
-
+ */
 void	ft_putstr(char *str)
 {
 	char	**ptr;
