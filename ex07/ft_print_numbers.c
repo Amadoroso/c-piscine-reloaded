@@ -6,7 +6,7 @@
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/07 17:11:12 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/07 18:10:01 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/09 18:12:27 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_putchar(char ascii)
 	write(1, &ascii, 1);
 }
  */
+void	ft_putchar(char letter);
+
 void	ft_print_numbers(void)
 {
 	int		digit;
