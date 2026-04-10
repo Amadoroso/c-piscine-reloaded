@@ -6,7 +6,7 @@
 /*   By: apinho-a <apinho-a@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/10 14:19:44 by apinho-a          #+#    #+#             */
-/*   Updated: 2026/04/10 15:08:41 by apinho-a         ###   ########.fr       */
+/*   Updated: 2026/04/10 15:21:40 by apinho-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 # define FT_POINT_H
 
-typedef	struct	s_point
+typedef struct s_point
 {
 	int	x;
 	int	y;
-} t_point;
+}	t_point;
 
 #endif
